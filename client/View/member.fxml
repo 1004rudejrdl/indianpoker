@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="BASELINE_CENTER" prefHeight="391.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="43.0" prefWidth="300.0" text="POKER">
+         <font>
+            <Font size="83.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="300.0" spacing="20.0">
+         <children>
+            <Label text="아이디" />
+            <TextField id="memTextId" prefHeight="23.0" prefWidth="98.0" />
+            <Button id="memBtnRegister" mnemonicParsing="false" text="중복확인" />
+         </children>
+         <padding>
+            <Insets left="18.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Label text="비밀번호" />
+            <PasswordField id="memTextPassword" />
+         </children>
+         <padding>
+            <Insets left="38.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Label text="비밀번호 확인" />
+            <PasswordField id="memTextPasswordRegister" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Label text="이름" />
+            <TextField id="memTextName" />
+         </children>
+         <padding>
+            <Insets left="62.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="300.0" spacing="10.0">
+         <children>
+            <Label text="주민등록번호" />
+            <TextField id="memTextresident1" prefHeight="23.0" prefWidth="79.0" />
+            <Label text="-" />
+            <PasswordField id="memTextresident2" prefHeight="23.0" prefWidth="91.0" />
+         </children>
+         <padding>
+            <Insets left="13.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="37.0" prefWidth="300.0" spacing="5.0">
+         <children>
+            <Label text="전화번호" />
+            <TextField id="memTextTel1" prefWidth="60.0" />
+            <Label text="-" />
+            <TextField id="memTextTel2" prefWidth="60.0" />
+            <Label text="-" />
+            <TextField id="memTextTel3" prefWidth="60.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="300.0" spacing="30.0">
+         <children>
+            <Label text="성별" />
+            <ComboBox id="memComboBox" prefWidth="150.0" promptText="성별" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="44.0" prefWidth="300.0" spacing="30.0">
+         <children>
+            <Button id="memJoin" mnemonicParsing="false" text="가입하기" />
+            <Button id="memCencel" mnemonicParsing="false" text="취소" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,53 @@
+#POKER_text{
+	-fx-font-size:70;
+	-fx-font-family:"Arial Black";
+	-fx-font-weight:bold;
+	-fx-text-fill:yellow;
+	/*-fx-effect:innershadow(three-pass-box, rgba(0,0,0,0.8), 10, 0,5,5.1);*/
+	-fx-effect:dropshadow(three-pass-box, white, 3, 0, 2, 4); 
+	 
+
+}
+
+/* .root{
+	-fx-background-image : url("images/snow.jpg");
+}*/
+
+Label{
+	-fx-font-size:12;
+	-fx-font-weight:bold;
+	-fx-text-fill:yellow;
+}
+
+Button{
+	
+	-fx-font-family:"Arial Narrow";
+	-fx-font-weight:bold;
+	-fx-background-color:yellow;
+	-fx-text-fill:linear-gradient(to bottom, black, black);
+	/*-fx-effect:innershadow(three-pass-box, rgba(0,0,0,0.8), 10, 0,5,5.1);*/
+	-fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 2, 2); 
+	
+}
+
+Button:hover{
+	-fx-background-color:black;
+	-fx-text-fill:yellow;
+}
+
+/*Button:pressed{
+	-fx-background-color:linear-gradient(yellow,#61a2b1);
+}*/
+
+.root{
+	-fx-background-color :black;
+}
+
+TextField:hover{
+	-fx-background-color:yellow;
+	-fx-text-fill:black;
+}
+PasswordField:hover{
+	-fx-background-color:yellow;
+	-fx-text-fill:black;
+}

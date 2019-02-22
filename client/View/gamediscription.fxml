@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label text="게임 설명 ">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <TextArea prefHeight="406.0" prefWidth="632.0" text="1 : 서로의 패중 높은 패가 이기는 방식 입니다.&#10;&#10;2 : 처음 방에 입장 하시게 되면 상대방의 패가 보이게 됩니다.&#10;&#10;3 : 상대방의 패를 보시고 이길 수 있다고 생각하실때에 돈을 거시고 배팅을 합니다.&#10;&#10;4 : 상대방의 패를 보시고 비슷할 것 같으면 카드 오픈을 합니다.&#10;&#10;5 : 상대방의 패를 보시고 낮을 것 같으면 포기를 누릅니다.&#10;&#10;6 : 배팅을 누르시면 상대방의 턴으로 넘어갑니다.&#10;&#10;7 : 오픈 버튼을 누르시면 서로의 패을 확인 후 승리를 한 쪽이 선이 됩니다.&#10;&#10;8: 포기를 누르시면 패를 확일할 수 없이 포기를 선언한 쪽이 패배합니다.&#10;&#10;9 : 오픈 버튼을 누르시면 상대방이 배팅을 한 만큼 돈이 나가게 됩니다.&#10;&#10;10 : 배팅은 상대방의 금액과 나의 금액보다 크게 거실 수 없습니다.&#10;&#10;11 : 게임이 끝난 후 4초 후에 게임이 재 시작 됩니다.">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</VBox>

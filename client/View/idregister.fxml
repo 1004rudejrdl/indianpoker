@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="71.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label text="사용가능한 아이디 입니다." />
+      <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0" spacing="30.0">
+         <children>
+            <Button id="idRegisterBtnUse" mnemonicParsing="false" text="사용하기" />
+            <Button id="idRegisterBtnCencel" mnemonicParsing="false" text="취소" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

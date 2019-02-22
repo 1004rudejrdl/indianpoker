@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Controller.ClientRootController">
+   <children>
+      <HBox>
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+               <children>
+                  <ImageView fx:id="speed1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/spade1233.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/heart.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="340.0" prefWidth="317.0">
+               <children>
+                  <Label fx:id="POKER_text" alignment="CENTER" contentDisplay="CENTER" text="POKER">
+                     <VBox.margin>
+                        <Insets bottom="30.0" left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="220.0" spacing="20.0">
+                     <children>
+                        <Label text="아이디" />
+                        <TextField fx:id="roginIdTextField" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="47.0" prefWidth="220.0" spacing="10.0">
+                     <children>
+                        <Label text="비밀번호" />
+                        <PasswordField fx:id="roginPasswordTextField" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="53.0" prefWidth="336.0" spacing="20.0">
+                     <children>
+                        <Button fx:id="btnRogin" mnemonicParsing="false" text="로그인" />
+                        <Button fx:id="btnClose" mnemonicParsing="false" text="닫기" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="67.0" prefWidth="336.0" spacing="30.0">
+                     <children>
+                        <Button fx:id="btnIdChoose" mnemonicParsing="false" text="아이디 찾기" />
+                        <Button fx:id="btnPasswordChoose" mnemonicParsing="false" text="비밀번호 찾기" />
+                        <Button fx:id="btnMember" mnemonicParsing="false" text="회원 가입" />
+                     </children>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+               <children>
+                  <ImageView fx:id="speed2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/diamond.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/clover1233.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
